@@ -1,0 +1,87 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 400px; 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333; 
+  text-align: center; 
+}
+
+.formGroup {
+  margin-bottom: 15px; 
+}
+
+.label {
+  display: block; 
+  margin-bottom: 5px; 
+  font-weight: bold; 
+}
+
+.input, .select {
+  width: 100%; 
+  padding: 10px; 
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+}
+
+.input:focus, .select:focus {
+  border-color: #007bff;
+  outline: none; 
+}
+
+.error {
+  color: red; 
+  font-size: 0.9em; 
+  margin-top: 5px; 
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between; 
+  margin-top: 20px; 
+}
+
+.createButton, .cancelButton {
+  padding: 10px 15px;
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+}
+
+.createButton {
+  background-color: #28a745; 
+  color: white; 
+}
+
+.createButton:hover {
+  background-color: #218838; 
+}
+
+.cancelButton {
+  background-color: #dc3545; 
+  color: white; 
+}
+
+.cancelButton:hover {
+  background-color: #c82333; 
+}

@@ -1,0 +1,49 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f9;
+  padding: 20px
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  position: relative;
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.welcomeText {
+  font-size: 2.5rem;
+  color: #333;
+  position: absolute; /* Allows centering */
+  left: 50%; /* Moves it to the center */
+  transform: translateX(-50%); /* Adjusts to actual center */
+}
+
+.container {
+  width: 80%;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.logoutButton {
+  padding: 10px 15px;
+  background-color: #f44336; /* Red */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.logoutButton:hover {
+  background-color: #d32f2f; /* Darker red */
+}
+
